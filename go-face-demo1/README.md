@@ -17,8 +17,7 @@ Then program will scan the face in this recent picture of the each actor and det
 | --- | --- | --- | --- |
 | Kramer | Jerry | Elaine | George |
 
-I test each actor sperately, here is the test results:
-
+Here are the results:
 
 ```
 $ go-face-demo1 --group seinfeld.jpg --names Kramer,Jerry,Elaine,George --target kramer.jpg
@@ -63,6 +62,6 @@ $ go-face-demo1 --group seinfeld.jpg --names Kramer,Jerry,Elaine,George --target
 
 ```
 
-Success ! The demo could recognize each actor even though they are a bit older now, wear glasses or change hairstyle.
+Success, quite amazing !
 
-Quite amazing.
+The program could recognize each actor even though they are a bit older now, wear glasses or change hairstyle.
