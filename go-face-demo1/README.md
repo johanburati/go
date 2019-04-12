@@ -8,12 +8,13 @@ Testing faces recognition in Go using [go-face](https://github.com/Kagami/go-fac
 We have a group photo of the cast of [Seinfeld](https://www.imdb.com/title/tt0098904/)
 
 | *Kramer, Jerry, Elaine, George* |
+| --- |
 | ![](seinfeld.jpg) |
 
 And here are recents photos of the actors:
 
 | Kramer | Jerry | Elaine | George |
-| --- | --- |
+| --- | --- | --- | --- |
 | ![](kramer.jpg) | ![](jerry.jpg) | ![](elaine.jpg) | ![](george.jpg) |
 
 We ran the demo on each individual actor photo:
@@ -60,4 +61,4 @@ $ go-face-demo1 --group seinfeld.jpg --names Kramer,Jerry,Elaine,George --target
 - Found: Elaine
 ```
 
-The librabry could recognize the actor each time !
+Notice that Jerry and Kramer wears glasses now, but even though the library could recognize all the actors, quite amazing !
