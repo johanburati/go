@@ -7,15 +7,15 @@ Testing faces recognition in Go using [go-face](https://github.com/Kagami/go-fac
 
 We have a group photo of the cast of [Seinfeld](https://www.imdb.com/title/tt0098904/)
 
-| *Kramer, Jerry, Elaine, George* |
-| --- |
 | ![](seinfeld.jpg) |
+| --- |
+| *Kramer, Jerry, Elaine, George* |
 
 And here are recents photos of the actors:
 
-| Kramer | Jerry | Elaine | George |
-| --- | --- | --- | --- |
 | ![](kramer.jpg) | ![](jerry.jpg) | ![](elaine.jpg) | ![](george.jpg) |
+| --- | --- | --- | --- |
+| Kramer | Jerry | Elaine | George |
 
 We ran the demo on each individual actor photo:
 
