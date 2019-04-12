@@ -5,19 +5,20 @@ Testing faces recognition in Go using [go-face](https://github.com/Kagami/go-fac
 
 # Demo
 
-We have a group photo of the cast of [Seinfeld](https://www.imdb.com/title/tt0098904/):
+First the program will detect the faces from left to right in this group photo of the [Seinfeld](https://www.imdb.com/title/tt0098904/) cast, and we will name the faces accordingly.
 
 | ![](seinfeld.jpg) |
 | --- |
 | The *Seinfeld* cast: Kramer, Jerry, Elaine and George |
 
-And here are recents photos of the actors:
+Then program will scan the face in this recent picture of the each actor and determine if the face appears in the group photo.
 
 | ![](kramer.jpg) | ![](jerry.jpg) | ![](elaine.jpg) | ![](george.jpg) |
 | --- | --- | --- | --- |
 | Kramer | Jerry | Elaine | George |
 
-We ran the demo on each individual actor photo:
+I test each actor sperately, here is the test results:
+
 
 ```
 $ go-face-demo1 --group seinfeld.jpg --names Kramer,Jerry,Elaine,George --target kramer.jpg
@@ -62,4 +63,6 @@ $ go-face-demo1 --group seinfeld.jpg --names Kramer,Jerry,Elaine,George --target
 
 ```
 
-Notice that Jerry and Kramer wears glasses now, but even though the library could recognize all the actors, quite amazing !
+Success ! The demo could recognize each actor even though they are a bit older now, wear glasses or change hairstyle.
+
+Quite amazing.
