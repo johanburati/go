@@ -1,6 +1,5 @@
-// Detect and name faces on a group image, then check if we can find the target face in that group
 //
-// go run main.go --group seinfeld.jpg --names Kramer,Jerry,Elaine,George --target jerry.jpg
+// Detect and name faces on a group image, then check if we can find the target face in that group
 //
 
 package main
