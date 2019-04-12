@@ -20,6 +20,16 @@ And here are recents photos of the actors:
 We ran the demo on each individual actor photo:
 
 ```
+$ go-face-demo1 --group seinfeld.jpg --names Kramer,Jerry,Elaine,George --target kramer.jpg
+# GO-FACE DEMO #1
+## Detect faces on seinfeld.jpg
+- Detected: Kramer
+- Detected: Jerry
+- Detected: Elaine
+- Detected: George
+## Recognize face on kramer.jpg
+- Found: Kramer
+
 $ go-face-demo1 --group seinfeld.jpg --names Kramer,Jerry,Elaine,George --target jerry.jpg
 # GO-FACE DEMO #1
 ## Detect faces on seinfeld.jpg
@@ -30,15 +40,15 @@ $ go-face-demo1 --group seinfeld.jpg --names Kramer,Jerry,Elaine,George --target
 ## Recognize face on jerry.jpg
 - Found: Jerry
 
-$ go-face-demo1 --group seinfeld.jpg --names Kramer,Jerry,Elaine,George --target kramer.jpg
+$ go-face-demo1 --group seinfeld.jpg --names Kramer,Jerry,Elaine,George --target elaine.jpg
 # GO-FACE DEMO #1
 ## Detect faces on seinfeld.jpg
 - Detected: Kramer
 - Detected: Jerry
 - Detected: Elaine
 - Detected: George
-## Recognize face on kramer.jpg
-- Found: Kramer
+## Recognize face on elaine.jpg
+- Found: Elaine
 
 $ go-face-demo1 --group seinfeld.jpg --names Kramer,Jerry,Elaine,George --target george.jpg
 # GO-FACE DEMO #1
@@ -50,15 +60,6 @@ $ go-face-demo1 --group seinfeld.jpg --names Kramer,Jerry,Elaine,George --target
 ## Recognize face on george.jpg
 - Found: George
 
-$ go-face-demo1 --group seinfeld.jpg --names Kramer,Jerry,Elaine,George --target elaine.jpg
-# GO-FACE DEMO #1
-## Detect faces on seinfeld.jpg
-- Detected: Kramer
-- Detected: Jerry
-- Detected: Elaine
-- Detected: George
-## Recognize face on elaine.jpg
-- Found: Elaine
 ```
 
 Notice that Jerry and Kramer wears glasses now, but even though the library could recognize all the actors, quite amazing !
