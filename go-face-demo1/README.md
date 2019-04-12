@@ -5,11 +5,11 @@ Testing faces recognition in Go using [go-face](https://github.com/Kagami/go-fac
 
 # Demo
 
-We have a group photo of the cast of [Seinfeld](https://www.imdb.com/title/tt0098904/)
+We have a group photo of the cast of [Seinfeld](https://www.imdb.com/title/tt0098904/):
 
 | ![](seinfeld.jpg) |
 | --- |
-| *Kramer, Jerry, Elaine, George* |
+| The *Seinfeld* cast: Kramer, Jerry, Elaine and George |
 
 And here are recents photos of the actors:
 
