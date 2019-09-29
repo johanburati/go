@@ -47,6 +47,9 @@ func main() {
 				if len(values) == 0 {
 					continue
 				}
+
+				// if tvg-name is empty, use the track Name (at the end of the line after the comma)
+				if values[1] == "" { values[1] = track.Name }
 				values = append(values, track.URI)
 				// track.Name is mess up if there is comma in the title, use tvg-name tag instead
 
